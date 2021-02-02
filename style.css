@@ -1,0 +1,163 @@
+/* *{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+html, body{
+	height: 100%;
+}
+
+body{
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+    background-image: url(countdown.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+	
+
+}
+
+
+.title{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    background-color: rgb(193,154,107,0.5)
+	
+}
+
+.content{
+	height: 60vh;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+.btn{
+	padding: 0.8rem 1.7rem;
+	background-color: #fff;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	border-radius: 4px;
+	font-family: 'Poppins', sans-serif;
+	font-size: 1.2rem;
+	font-weight: 700;
+}
+
+.start{
+	color: #1f3;
+}
+.stop{
+	color: #E00;
+}
+
+#continue, .stop, #start{
+	display: none;
+}
+
+
+#seconds{
+	width: 250px;
+	background: none;
+	outline: none;
+	border: none;
+	border-bottom: 4px solid #fff;
+	padding: 1rem;
+	font-size: 2rem;
+	color: white;
+}
+
+#seconds::placeholder{
+	color: #ddd;
+} */
+
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+html, body{
+	height: 100%;
+}
+
+body{
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+    background-image: url(countdown.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+	font-family: 'Poppins', sans-serif;
+
+}
+ 
+.title{
+    color:white;
+    background-color: rgb(193,154,107,0.5);
+    font-size: 50px;
+    text-align: center;
+}
+
+.content{
+	height: 60vh;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+	font-size: 3rem;
+	text-transform: uppercase;
+}
+
+.btn{
+	padding: 0.8rem 1.7rem;
+	background-color: #fff;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	border-radius: 4px;
+	font-family: 'Poppins', sans-serif;
+	font-size: 1.2rem;
+	font-weight: 700;
+}
+
+.start{
+	color:black;
+}
+.stop{
+	color: black
+}
+
+#continue, .stop, #start{
+	display: none;
+}
+
+
+#seconds{
+	width: 250px;
+	background: none;
+	outline: none;
+	border: none;
+	border-bottom: 4px solid #fff;
+	padding: 1rem;
+	font-size: 2rem;
+	color: white;
+}
+
+#seconds::placeholder{
+	color: #ddd;
+}
